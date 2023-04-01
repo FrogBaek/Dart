@@ -10,7 +10,7 @@ void main() {
     print('나머지가 2입니다.');
   }
 
-
+/*-----------------------------------------------*/
   // switch문
   int number = 3;
 
@@ -28,7 +28,7 @@ void main() {
       break;
   }
 
-
+/*-----------------------------------------------*/
   // for loop
   for(int i = 0; i < 10; i++){
     print(i);
@@ -69,7 +69,7 @@ void main() {
 
   print(total);
 
-
+/*-----------------------------------------------*/
   // while loop
   int total = 0;
 
@@ -98,7 +98,7 @@ void main() {
   }
 }
 
-
+/*-----------------------------------------------*/
 // enum
 enum Status{
   approved,
@@ -120,7 +120,7 @@ void main2() {
     print('거절입니다.');
   }
 
-
+/*-----------------------------------------------*/
   // function
   addNumbers(10, 30);
 
@@ -165,7 +165,7 @@ addNumbers2(int x, {
 
 // 함수의 return 타입을 void, int, double, String 등등으로 지정할 수 있음
 
-
+/*-----------------------------------------------*/
 // arrow function
 // addNumbers3와 같은 함수임!
 int addNumbers3(int x, {
@@ -197,7 +197,7 @@ void main3 () {
 }
 
 
-
+/*-----------------------------------------------*/
 // typedef
 // signature
 typedef Operation = int Function(

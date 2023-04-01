@@ -12,7 +12,7 @@ void main () {
 
   print(number3);
 
-
+/*-----------------------------------------------*/
   // 연산자
   print(number1 + number2);
 
@@ -22,12 +22,12 @@ void main () {
 
   print(number1 * number2);
 
-
+/*-----------------------------------------------*/
   // 실수
   double number4 = 2.5;
   double number5 = 0.5;
 
-
+/*-----------------------------------------------*/
   // 참,거짓
   bool isTrue = true;
   bool isFalse = false;
@@ -35,7 +35,7 @@ void main () {
   print(isTrue);
   print(isFalse);
 
-
+/*-----------------------------------------------*/
   // 글자 타입
   String name = '에스파';
   String name2 = '전투개구리';
@@ -52,7 +52,7 @@ void main () {
   Map<String, Map<int, List<double>>> testType = {};
   var testType {};
 
-
+/*-----------------------------------------------*/
   // dynamic vs var
   dynamic name = '전투개구리';
   dynamic number = 1;
@@ -103,7 +103,7 @@ void main () {
   y = true;
   print(y);
 
-
+/*-----------------------------------------------*/
   // null
 
   // nullable - null이 될 수 있다.
@@ -125,8 +125,9 @@ void main () {
   number = null;
 
   number ??= 3.0;
+  // 값이 null 이면 3.0을 대입하라!
   
-  
+  /*-----------------------------------------------*/
   // final vs const
   final name = '전투개구리';
   
@@ -143,9 +144,7 @@ void main () {
   const DateTime now2 = DateTime.now();
 
 
-
-
-
+/*-----------------------------------------------*/
   // Operator
   int numberA = 1;
   int numberB = 2;
@@ -157,7 +156,7 @@ void main () {
   print(numberA == numberB);
   print(numberA != numberB);
 
-
+/*-----------------------------------------------*/
   //Type 비교
   int numberC = 1;
 
@@ -167,7 +166,7 @@ void main () {
   print(numberC is! int);
   print(numberC is! String);
 
-
+/*-----------------------------------------------*/
   // 비교 연산자
   bool result = 12 > 18 && 1 > 0;
 
@@ -189,7 +188,7 @@ void main () {
 
   print(result5);
 
-
+/*-----------------------------------------------*/
   // List
   List<String> aespa = ['카리나', '윈터'];
   List<int> numbers = [1, 2, 3, 4, 5];
@@ -216,7 +215,7 @@ void main () {
   print(aespa.indexOf('윈터'));
   // 몇 번째 인덱스에 존재하는지!
 
-  
+  /*-----------------------------------------------*/
   // Map (Key - value)
   Map<String, String> dictionary = {
     'Combat Frog': '전투개구리',
@@ -263,7 +262,7 @@ void main () {
   print(isCombarFrog.values);
   // value들만 가져오기
 
-  
+  /*-----------------------------------------------*/
   // Set
   // List와 거의 동일한데, List와는 다르게 중복 값을 받지 않음
   // 즉, 자동으로 중복 처리해줌!
