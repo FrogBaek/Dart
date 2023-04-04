@@ -19,7 +19,7 @@ class Idol {
   List<String> members = ['카리나', '윈터'];
 
   void sayHello() {
-    print('안녕하세요 블랙핑크입니다.');
+    print('안녕하세요 에스파입니다.');
   }
 
   void introduce () {
